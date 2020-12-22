@@ -1,0 +1,183 @@
+{
+    "_comment": "Use alt-z to turn off text wrapping.",
+    "bio": "My name is Sebastian Aldi. I am an undergraduate student that has experience in web and mobile programming. I also have participated in data science competitions, but I do not consider myself a pro at it. Python is my go to language for stuff because I have the most experience with it (started at my second year of university on 2018, kind of became my favorite language after that). The only things I do not use python for are games (I know pygame exists but I haven't learned it. However, Godot uses GDScript, a python-like scripting language), web programming (I used PHP during my university days, I have experience with Flask but not Django. I am interested in Django though), and mobile programming (Not supported unless using Kivy or PyQt, haven't learned them).",
+    "projects": [
+        {
+            "name": "UPH-CPBot",
+            "desc": "A discord bot that sends a message when there is a Codeforces contest in 24 hours. Made for UPH Competitive Programming Club using Discord.js and request (for interacting with Codeforces API).",
+            "link": "https://github.com/sebastianaldi17/UPH-CPBot",
+            "imgl": "../images/UPHCPBOT.JPG"
+        },
+
+        {
+            "name": "AutoMemer",
+            "desc": "A discord bot that sends a meme from the subreddit r/dankmemes. Takes one meme every hour, and calls the Reddit API for new memes when the previous memes have all been posted. Hosted at heroku for my personal discord server.",
+            "link": "https://github.com/sebastianaldi17/AutoMemer",
+            "imgl": "../images/Automeme.JPG"
+        },
+
+        {
+            "name": "sebastianaldi17.github.io",
+            "demo": "https://sebastianaldi17.github.io",
+            "desc": "My old personal site hosted using github pages. Site is created using HTML, CSS, and javascript. Bootstrap was used to make the interface. Animate on Scroll (AOS) was used to animate the content when it is visible. Click on this card to visit my old site.",
+            "link": "https://github.com/sebastianaldi17/sebastianaldi17.github.io",
+            "imgl": "../images/OldSite.JPG"
+        },
+
+        {
+            "name": "Space Defender",
+            "desc": "A multiplayer space invader clone made using Godot.",
+            "link": "https://github.com/sebastianaldi17/SpaceDefender",
+            "imgl": "../images/SpaceDefender.JPG"
+        },
+
+        {
+            "name": "JavaDESRSA",
+            "desc": "A Java program made to demonstrate DES and RSA encryption. Interface is made using JavaFX, encryption is done using javax.crypto and java.security.",
+            "link": "https://github.com/sebastianaldi17/JavaDESRSA",
+            "imgl": "../images/RSA.JPG"
+        },
+
+        {
+            "name": "PredictAccidentSeverity",
+            "desc": "A python web application made using Dash and scikit-learn. Dataset is taken from Kaggle, machine learning method used is decision tree.",
+            "link": "https://github.com/sebastianaldi17/PredictAccidentSeverity",
+            "imgl": "../images/PredictAccidentSeverity.png"
+        }
+    ],
+    "quotes": [
+        {
+            "quote": "My philosophy is that worrying means you suffer twice.",
+            "author": "Newt Scamander"
+        },
+        {
+            "quote": "Comparison is the thief of joy.",
+            "author": "Theodore Roosevelt"
+        },
+        {
+            "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+            "author": "Benjamin Franklin"
+        },
+        {
+            "quote": "It is during our darkest moments that we must focus to see the light.",
+            "author": "Aristotle"
+        },
+        {
+            "quote": "The purpose of our lives is to be happy.",
+            "author": "Dalai Lama"
+        },
+        {
+            "quote": "True friendship comes when the silence between two people is comfortable.",
+            "author": "David Tyson"
+        },
+        {
+            "quote": "The most beautiful discovery true friends make is that they can grow separately without growing apart.",
+            "author": "Elisabeth Foley"
+        },
+        {
+            "quote": "It is important to draw wisdom from many different places. If we take it from only one place, it becomes rigid and stale.",
+            "author": "Uncle Iroh"
+        }
+    ],
+    "skills": [
+        "Python", "Node.js", "PHP", "HTML", "CSS", "JavaScript", "React.js", "C++", "Java", "Kotlin", "Git", "Scikit-learn", "TensorFlow", "OpenCV", "Processing | p5.js", "Godot"
+    ],
+    "timeline": [
+        {
+            "date": "August 2017",
+            "title": "Undergraduate Admission",
+            "content": "Started computer science undergraduate program at Universitas Pelita Harapan."
+        },
+        
+        {
+            "date": "May 2018",
+            "title": "9th place Ideafuse",
+            "content": "Reached 9th place at ACM-ICPC Ideafuse Multi-Provincial Contest together with Liang Cai and Winston Renatan. Travelled to Medan for the finals :D"
+        },
+
+        {
+            "date": "August 2018",
+            "title": "Calculus I-II Assistant Lecturer",
+            "content": "Became an assistant lecturer for Calculus I and II. I check their homework, record their score, and sometimes teach during tutorial sessions."
+        },
+
+        {
+            "date": "September 2018",
+            "title": "Finalist Maranatha",
+            "content": "Managed to get to the on-site finals at ACM-ICPC Maranatha at Bandung. Competition was tighter since more competent teams were there."
+        },
+
+        {
+            "date": "September 2018",
+            "title": "PROLOG Jury",
+            "content": "Became one of the team members at National Programming and Logic Competition (PROLOG 2018). Made some multiple choice pseudocode questions, pretty nice."
+        },
+
+        {
+            "date": "May - June 2019",
+            "title": "Undergraduate Research Assistant",
+            "content": "Helped a lecturer to do their research. Learned about OpenCV along the way."
+        },
+
+        {
+            "date": "June 2019",
+            "title": "5th place Ideafuse",
+            "content": "Reached 5th place at ACM-ICPC Ideafuse Multi-Provincial Contest together with Nicky Logan and Ray Antonius. We got to the ICPC Jakarta regionals due to being top 5, peak of my competitive programming career for sure."
+        },
+
+        {
+            "date": "July 2019",
+            "title": "Informatics Student Association",
+            "content": "Joined Informatics Student Association (Himpunan Mahasiswa Program Studi Informatika) as a member of their Student Development division."
+        },
+
+        {
+            "date": "September 2019",
+            "title": "Falcon Project 9 event division member",
+            "content": "Handled Falcon Project 9's programming contest. For the first time I felt being at the other side of DOMJudge :)"
+        },
+        
+        {
+            "date": "October 2019",
+            "title": "ICPC Jakarta Regionals, 38/14th place",
+            "content": "The certificate said 14th place, actual placement at scoreboard is 38th place. I still cannot figure out how do they count the ranks for the certificates..."
+        },
+
+        {
+            "date": "January - April 2020",
+            "title": "Computer Graphics Assistant Lecturer",
+            "content": "Became an assistant lecturer for Computer Graphics, along with Liang Cai. Learned WebGL and Three.js by preparing materials for the students."
+        },
+
+        {
+            "date": "June - August 2020",
+            "title": "Shopee Code League participant",
+            "content": "Joined Shopee Code League with Winston Renatan, Grand Marcell and Alessandro Luiz Kartika. Learned about TensorFlow and Keras. Got a free T-shirt :D"
+        },
+
+        {
+            "date": "October 2020",
+            "title": "Completed Thesis Defence",
+            "content": "Currently waiting for graduation."
+        },
+
+        {
+            "date": "November 2020",
+            "title": "Falcon Project 10 Problemsetter",
+            "content": "Became one of the problemsetters for Falcon Project 10. Now I make (some of) the problems for DOMJudge >:)"
+        },
+
+        {
+            "date": "December 2020",
+            "title": "Shopee National Data Science Contest participant",
+            "content": "Joined NDSC with Winston Renatan, Grand Marcell and Alessandro Luiz Kartika. Reached 6th at one of their problems, they will send a T-shirt soon :3"
+        },
+
+        {
+            "date": "December 2020",
+            "title": "ICPC Jakarta Regionals",
+            "content": "My second and last regional contest. Got a golden ticket through Indonesia National Contest 2020, did not achieve anything great. Will show the rank after certificate is given out."
+        }
+
+    ]
+}
