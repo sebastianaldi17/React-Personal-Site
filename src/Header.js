@@ -4,17 +4,17 @@ export default function Header() {
     return (
         <AppBar className='appBar' position='static'>
             <Toolbar spacing={3}>
-                <Typography variant='body1'>
-                    <Link href='/' color='inherit' style={{marginRight: 16}} variant='h6'>
+                <Typography>
+                    <Link href='/' color='inherit' style={{marginRight: 16}} variant='button'>
                         Home
                     </Link>
-                    <Link href='/projects' color='inherit' style={{marginRight: 16}} variant='h6'>
+                    <Link href='/projects' color='inherit' style={{marginRight: 16}} variant='button'>
                         Projects
                     </Link>
-                    <Link href='/resume' color='inherit' style={{marginRight: 16}} variant='h6'>
+                    <Link href='/resume' color='inherit' style={{marginRight: 16}} variant='button'>
                         Resume
                     </Link>
-                    <Link href='/timeline' color='inherit' style={{marginRight: 16}} variant='h6'>
+                    <Link href='/timeline' color='inherit' style={{marginRight: 16}} variant='button'>
                         Timeline
                     </Link>
                 </Typography>

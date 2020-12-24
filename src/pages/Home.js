@@ -35,30 +35,27 @@ export default function Home() {
                             </Typography>
                         </Grid>
 
-                        <Grid item>
-                            <Button startIcon={<GitHub />} color='primary' variant='contained' href='https://github.com/sebastianaldi17'>
-                                Github
-                            </Button>
-                        </Grid>
+                        <Grid item container justify='center' spacing={3}>
+                            <Grid item>
+                                <Button startIcon={<GitHub />} color='primary' variant='contained' href='https://github.com/sebastianaldi17'>
+                                    Github
+                                </Button>
+                            </Grid>
 
-                        <Grid item>
-                            <Button startIcon={<Instagram />} color='primary' variant='contained' href='https://www.instagram.com/axynald/'>
-                                Instagram
-                            </Button>
-                        </Grid>
-
-                        <Grid item>
-                            <Button startIcon={<LinkedIn />} color='primary' variant='contained' href='https://www.linkedin.com/in/sebastian-aldi-95863a187/'>
-                                LinkedIn
-                            </Button>
+                            <Grid item>
+                                <Button startIcon={<Instagram />} color='primary' variant='contained' href='https://www.instagram.com/axynald/'>
+                                    Instagram
+                                </Button>
+                            </Grid>
+                            
+                            <Grid item>
+                                <Button startIcon={<LinkedIn />} color='primary' variant='contained' href='https://www.linkedin.com/in/sebastian-aldi-95863a187/'>
+                                    LinkedIn
+                                </Button>
+                            </Grid>
                         </Grid>
                     </Grid>
                 </Grid>
-            </Paper>
-            <Paper className='Bio PaperMargins'>
-                <Typography variant='body1'>
-                    {data.bio}
-                </Typography>
             </Paper>
             <Paper className='PaperMargins' align='center'>
                 <Typography variant='h4'>
@@ -72,6 +69,11 @@ export default function Home() {
                         />
                     )
                 })}
+            </Paper>
+            <Paper className='Bio PaperMargins'>
+                <Typography variant='body1'>
+                    {data.bio}
+                </Typography>
             </Paper>
 
             <Paper className='quote PaperMargins'>

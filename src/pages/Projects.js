@@ -13,13 +13,13 @@ export default function Projects() {
                         <Grow in timeout={(index+1)*250}>
                             <Grid item xs={12} sm={6} lg={4}>
                                 <Card>
-                                    <CardActionArea onClick={() => {window.location.href = item.demo}}>
+                                    <CardActionArea onClick={() => {window.location.href = item.demo}} >
                                         <CardMedia
                                         image={item.imgl}
                                         title={item.name}
-                                        style= {{minHeight: '500px'}}
+                                        style= {{minHeight: '250px'}}
                                         />
-                                        <CardContent>
+                                        <CardContent style={{minHeight: '100px'}}>
                                             <Typography variant='h6'>
                                                 {item.name}
                                             </Typography>

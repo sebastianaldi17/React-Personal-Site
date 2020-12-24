@@ -7,14 +7,35 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 
+import React, {useState, useEffect} from 'react';
+
 import data from '../data.json'
 
-export default function myTimeline() {
+function getWindowDimensions() {
+    const {innerWidth: width, innerHeight: height} = window
+    return {width, height}
+}
+export default function MyTimeline() {
+    const [dim, setDim] = useState(getWindowDimensions())
     const events = data.timeline
+
+    useEffect(() => {
+        function handleResize() {
+            setDim(getWindowDimensions())
+        }
+
+        window.addEventListener('resize', handleResize)
+        return () => window.removeEventListener('resize', handleResize)
+    }, [])
 
     return (
         <div>
-            <Timeline align="alternate">
+            <Paper className='PaperMargins' align='center' style={{display: dim.width <= 600 ? 'flexbox' : 'none'}}>
+                <Typography>
+                    Timeline may look broken at mobile, sorry about that. Open as desktop site or use landscape to get the full experience 😀
+                </Typography>
+            </Paper>
+            <Timeline align={dim.width > 600 ? 'alternate' : 'left'}>
                 {events.map((item, index) => {
                     return (
                         <Grow in timeout={(index+1)*250}>
@@ -30,10 +51,10 @@ export default function myTimeline() {
                                     </TimelineSeparator>
                                     <TimelineContent>
                                     <Paper elevation={3} className='timelineContent'>
-                                        <Typography variant="h6" component="h1">
+                                        <Typography variant={dim.width > 600 ? 'h5' : 'body1'}>
                                             {item.title}
                                         </Typography>
-                                        <Typography>{item.content}</Typography>
+                                        <Typography variant="body2">{item.content}</Typography>
                                     </Paper>
                                     </TimelineContent>
                             </TimelineItem>
