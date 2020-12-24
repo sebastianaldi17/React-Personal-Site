@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core';
-import { blue } from '@material-ui/core/colors';
 
 const theme = createMuiTheme({
   palette: {
