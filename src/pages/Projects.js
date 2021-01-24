@@ -30,7 +30,7 @@ export default function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button href={item.link}>
-                                            Link to GitHub
+                                            Link
                                         </Button>
                                     </CardActions>
                                 </Card>

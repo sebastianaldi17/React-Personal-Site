@@ -10,6 +10,7 @@ import {
 // Components import
 import Header from './Header'
 import Home from './pages/Home'
+import NotFound from './pages/NotFound'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume' 
 import MyTimeline from './pages/MyTimeline' 
@@ -37,7 +38,7 @@ function App() {
           </Route>
 
           <Route path='/'>
-            <p>404</p>
+            <NotFound/>
           </Route>
         </Switch>
       </Router>

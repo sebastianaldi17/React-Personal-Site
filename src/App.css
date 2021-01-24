@@ -8,19 +8,30 @@ html {
 
 .appBar {
     align-items: center;
-  }
+}
 
 .Bio {
+    
     text-align: justify;
     text-justify: inter-word;
 }
+
 .embedPaper {
     height: 80vh;
 }
+
 .embedViewer {
     border: none;
     height: 100%;
     width: 100%;
+}
+
+.hyperlink {
+    color: #074ba5;
+    text-decoration: none;
+}
+.hyperlink:hover {
+    color: #69a9fd;
 }
 
 .LinkButton {
@@ -34,6 +45,13 @@ html {
 .PaperMargins {
     margin: 2em;
     padding: 1em;
+}
+
+.PaperNotFound {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
 }
 
 .quote {

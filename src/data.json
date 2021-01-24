@@ -3,6 +3,12 @@
     "bio": "My name is Sebastian Aldi. I am an undergraduate student that has experience in web and mobile programming. I also have participated in data science competitions, but I do not consider myself a pro at it. Python is my go to language for stuff because I have the most experience with it (started at my second year of university on 2018, kind of became my favorite language after that). The only things I do not use python for are games (I know pygame exists but I haven't learned it. However, Godot uses GDScript, a python-like scripting language), web programming (I used PHP during my university days, I have experience with Flask but not Django. I am interested in Django though), and mobile programming (Not supported unless using Kivy or PyQt, haven't learned them).",
     "projects": [
         {
+            "name": "temaninklusi.id",
+            "desc": "A website that aims to help students with ASD. Information regarding the subject is broken into small cards that is formatted using rich text. Uses React.js for frontend and Firebase for backend. Sadly the code is closed source.",
+            "link": "https://temaninklusi.id",
+            "imgl": "../images/temaninklusi.PNG"
+        },
+        {
             "name": "UPH-CPBot",
             "desc": "A discord bot that sends a message when there is a Codeforces contest in 24 hours. Made for UPH Competitive Programming Club using Discord.js and request (for interacting with Codeforces API).",
             "link": "https://github.com/sebastianaldi17/UPH-CPBot",
