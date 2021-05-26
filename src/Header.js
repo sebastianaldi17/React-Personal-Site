@@ -11,9 +11,6 @@ export default function Header() {
                     <Link href='/projects' color='inherit' style={{marginRight: 16}} variant='button'>
                         Projects
                     </Link>
-                    <Link href='/resume' color='inherit' style={{marginRight: 16}} variant='button'>
-                        Resume
-                    </Link>
                     <Link href='/timeline' color='inherit' style={{marginRight: 16}} variant='button'>
                         Timeline
                     </Link>

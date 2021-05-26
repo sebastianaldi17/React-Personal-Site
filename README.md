@@ -7,4 +7,4 @@ Site is hosted at netlify [here](https://sebastianaldi-17.netlify.app/).
 - Try to utilize more of the `@material-ui/icons` library, since it would be kind of a waste if I only used a few.
 - Separate data.json into multiple files based on the content (project list, timeline, etc.)
 - Maybe add a blog if I feel like writing. I still want to think about how to make a blog from json content by myself...
-- Any advice would be great. Send them over to my email `sebastian.aldi17@gmail.com`.
+- Any advice would be great.
