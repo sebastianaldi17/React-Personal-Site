@@ -12,7 +12,6 @@ import Header from './Header'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Projects from './pages/Projects'
-import Resume from './pages/Resume' 
 import MyTimeline from './pages/MyTimeline' 
 
 // align-items center
@@ -27,10 +26,6 @@ function App() {
           </Route>
           <Route exact path='/projects'>
             <Projects />
-          </Route>
-
-          <Route exact path='/resume'>
-            <Resume />
           </Route>
 
           <Route exact path='/'>
