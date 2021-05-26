@@ -1,5 +1,7 @@
 # Personal Site created using React.js
-This was a small side project of mine, to create another personal website using React.js. It was a learning experience for me, especially trying out material-UI for the first time (after getting used to bootstrap, it feels familiar yet foreign). I also plan on trying to host this site to Netlify (since I still want to keep my old site for historic purposes).
+This was a small side project of mine, to create another personal website using React.js. It was a learning experience for me, especially trying out material-UI for the first time (after getting used to bootstrap, it feels familiar yet foreign).
+
+Site is hosted at netlify [here](https://sebastianaldi-17.netlify.app/).
 
 # Some things I plan on fixing/changing
 - Try to utilize more of the `@material-ui/icons` library, since it would be kind of a waste if I only used a few.
